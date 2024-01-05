@@ -47,7 +47,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.23.2":
+"@babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.5":
   version: 7.23.7
   resolution: "@babel/runtime@npm:7.23.7"
   dependencies:
@@ -288,6 +288,15 @@ __metadata:
   version: 8.56.0
   resolution: "@eslint/js@npm:8.56.0"
   checksum: 60b3a1cf240e2479cec9742424224465dc50e46d781da1b7f5ef240501b2d1202c225bd456207faac4b34a64f4765833345bc4ddffd00395e1db40fa8c426f5a
+  languageName: node
+  linkType: hard
+
+"@gsap/react@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@gsap/react@npm:2.0.2"
+  peerDependencies:
+    react: ">=16"
+  checksum: 602eeceddc7e06c33ca2d395433373676e5ed4366188768f07225d2ecccf0c2a57f87a1572f96297211dbeac61f1ed9a9d32083b135a578a54015a6c2b2a3acf
   languageName: node
   linkType: hard
 
@@ -1267,6 +1276,13 @@ __metadata:
     strip-ansi: "npm:^6.0.1"
     wrap-ansi: "npm:^7.0.0"
   checksum: 4bda0f09c340cbb6dfdc1ed508b3ca080f12992c18d68c6be4d9cf51756033d5266e61ec57529e610dacbf4da1c634423b0c1b11037709cc6b09045cbd815df5
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "clsx@npm:2.1.0"
+  checksum: c09c00ad14f638366ca814097e6cab533dfa1972a358da5b557be487168acbb25b4c1395e89ffa842a8a61ba87a462d2b4885bc9d4f8410b598f3cb339599cdb
   languageName: node
   linkType: hard
 
@@ -2475,6 +2491,13 @@ __metadata:
   version: 1.4.0
   resolution: "graphemer@npm:1.4.0"
   checksum: e951259d8cd2e0d196c72ec711add7115d42eb9a8146c8eeda5b8d3ac91e5dd816b9cd68920726d9fd4490368e7ed86e9c423f40db87e2d8dfafa00fa17c3a31
+  languageName: node
+  linkType: hard
+
+"gsap@npm:^3.12.4":
+  version: 3.12.4
+  resolution: "gsap@npm:3.12.4"
+  checksum: 82de60392b722485d22140f7dfd7b99aa26096c234ff64b3269f08f50a1dd24a57d38d6a8807fc36059ef82f7c8da4f32c70d68a918679881004a218be559dea
   languageName: node
   linkType: hard
 
@@ -4213,6 +4236,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-hook-form@npm:^7.49.2":
+  version: 7.49.2
+  resolution: "react-hook-form@npm:7.49.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 8e2d3209d49a816f08e61a3b1847e9edff5ecb6e5b3cd056780c2331f8bb32aa0b7a2542bece602b415ddd4009023c5d054a27a021dc5014672623d5990853c8
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -4674,12 +4706,14 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^18.4.4"
     "@commitlint/config-conventional": "npm:^18.4.4"
+    "@gsap/react": "npm:^2.0.2"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18.2.46"
     "@types/react-dom": "npm:^18"
     "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
     "@typescript-eslint/parser": "npm:^6.17.0"
     autoprefixer: "npm:^10.0.1"
+    clsx: "npm:^2.1.0"
     eslint: "npm:^8"
     eslint-config-airbnb: "npm:^19.0.4"
     eslint-config-next: "npm:14.0.4"
@@ -4689,6 +4723,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.1.2"
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
+    gsap: "npm:^3.12.4"
     husky: "npm:^8.0.3"
     next: "npm:14.0.4"
     postcss: "npm:^8"
@@ -4697,8 +4732,11 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.5.10"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-hook-form: "npm:^7.49.2"
+    tailwind-merge: "npm:^2.2.0"
     tailwindcss: "npm:^3.3.0"
     typescript: "npm:^5"
+    zod: "npm:^3.22.4"
   languageName: unknown
   linkType: soft
 
@@ -4929,6 +4967,15 @@ __metadata:
     "@pkgr/core": "npm:^0.1.0"
     tslib: "npm:^2.6.2"
   checksum: c3d3aa8e284f3f84f2f868b960c9f49239b364e35f6d20825a448449a3e9c8f49fe36cdd5196b30615682f007830d46f2ea354003954c7336723cb821e4b6519
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "tailwind-merge@npm:2.2.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.23.5"
+  checksum: 41476d686af101c770401f4db509ffea9ec13bf99fd18185903dd86df2b71b3f512d9373b0f2785cb9e9abf093f39373327a29e9b3dde643b9daf7062f77c4ba
   languageName: node
   linkType: hard
 
@@ -5439,5 +5486,12 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.22.4":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 7578ab283dac0eee66a0ad0fc4a7f28c43e6745aadb3a529f59a4b851aa10872b3890398b3160f257f4b6817b4ce643debdda4fb21a2c040adda7862cab0a587
   languageName: node
   linkType: hard
