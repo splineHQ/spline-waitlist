@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prepare": "husky install && chmod ug+x .husky/*",
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern"
   },
   "dependencies": {
