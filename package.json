@@ -9,6 +9,7 @@
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern"
   },
   "dependencies": {
+    "husky": "^8.0.3",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
