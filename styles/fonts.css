@@ -7,14 +7,6 @@
 }
 
 @font-face {
-  font-family: 'yekan-extraBlack';
-  src: url('../assets/fonts/YEKANBAKH-EXTRABLACK.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'yekan-regular';
   src: url('../assets/fonts/YEKANBAKH-REGULAR.woff') format('woff');
   font-weight: normal;
