@@ -29,7 +29,7 @@ const Input = forwardRef<HTMLInputElement, IProps>(
     }
 
     return (
-      <div className="group font-[YekanBakh-Regular] text-xl">
+      <div dir="rtl" className="group font-[yekan-regular] text-xl">
         <div className="relative">
           <input
             ref={ref}
