@@ -291,12 +291,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formcarry/react@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@formcarry/react@npm:1.0.4"
+  peerDependencies:
+    react: ">= 16.8.0"
+    react-dom: ">= 16.8.0"
+  checksum: 3a593a98c166a289de739c75608891a4bfabc95ef5f9d9ea4bd45ffffc56abfa15a578bb42566b4f850bb90f6b819f0a1ead73981138239997a41e57eb29cb22
+  languageName: node
+  linkType: hard
+
 "@gsap/react@npm:^2.0.2":
   version: 2.0.2
   resolution: "@gsap/react@npm:2.0.2"
   peerDependencies:
     react: ">=16"
   checksum: 602eeceddc7e06c33ca2d395433373676e5ed4366188768f07225d2ecccf0c2a57f87a1572f96297211dbeac61f1ed9a9d32083b135a578a54015a6c2b2a3acf
+  languageName: node
+  linkType: hard
+
+"@hookform/resolvers@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@hookform/resolvers@npm:3.3.4"
+  peerDependencies:
+    react-hook-form: ^7.0.0
+  checksum: f7a5b8ba59cbb0859e7a212bd5cbcbc70bbdddd21d4fbe9f4a96d149b5756470cb29857a50334d8c1c64392e21007ccf5288d26aa407431784d4006a2570cb36
   languageName: node
   linkType: hard
 
@@ -1411,7 +1430,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-env@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "cross-env@npm:7.0.3"
+  dependencies:
+    cross-spawn: "npm:^7.0.1"
+  bin:
+    cross-env: src/bin/cross-env.js
+    cross-env-shell: src/bin/cross-env-shell.js
+  checksum: f3765c25746c69fcca369655c442c6c886e54ccf3ab8c16847d5ad0e91e2f337d36eedc6599c1227904bf2a228d721e690324446876115bc8e7b32a866735ecf
+  languageName: node
+  linkType: hard
+
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
@@ -4706,7 +4737,9 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^18.4.4"
     "@commitlint/config-conventional": "npm:^18.4.4"
+    "@formcarry/react": "npm:^1.0.4"
     "@gsap/react": "npm:^2.0.2"
+    "@hookform/resolvers": "npm:^3.3.4"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18.2.46"
     "@types/react-dom": "npm:^18"
@@ -4714,6 +4747,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^6.17.0"
     autoprefixer: "npm:^10.0.1"
     clsx: "npm:^2.1.0"
+    cross-env: "npm:^7.0.3"
     eslint: "npm:^8"
     eslint-config-airbnb: "npm:^19.0.4"
     eslint-config-next: "npm:14.0.4"
