@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Submitted() {
   return (
-    <div
+    <main
       dir="rtl"
       className="flex h-dvh w-full items-center justify-center bg-gradient-to-b from-[#EAF6F1] to-[#F8FCFA]"
     >
@@ -15,6 +15,6 @@ export default function Submitted() {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
