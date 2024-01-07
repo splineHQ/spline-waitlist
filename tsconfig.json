@@ -19,7 +19,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@spline/*": ["./*"],
+      "@spline/api": ["./api"],
+      "@spline/components": ["./components"],
+      "@spline/config": ["./config"],
+      "@spline/lib": ["./lib"],
+      "@spline/types": ["./types"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
