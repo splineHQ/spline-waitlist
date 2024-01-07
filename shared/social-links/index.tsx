@@ -7,7 +7,7 @@ interface IProps {
 
 export default function SocialLinks({ variant = 'submisson' }: IProps) {
   return (
-    <div dir="ltr" className="flex flex-row">
+    <div dir="ltr" className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row">
       <a href="https://www.instagram.com/spline_ir/" target="_blank">
         <Card variant={variant} classname="pl-12 pr-5 hover:opacity-70 transition-all">
           <div className="flex flex-row space-x-2">
