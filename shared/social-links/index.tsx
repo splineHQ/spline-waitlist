@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Card } from '..'
+import { Card } from '../../components'
 
 interface IProps {
   variant?: 'submisson' | 'submitted'

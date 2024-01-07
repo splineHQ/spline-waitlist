@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Card } from '..'
-import SocialLinks from '../social-links'
+import SocialLinks from '../../shared/social-links'
 import SubmissionForm from './submisson-form'
 
 export default function Submission() {
