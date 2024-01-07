@@ -40,7 +40,7 @@ export default function SubmissionForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <div className="mt-[62px] flex w-[430px] flex-col space-y-[21px]">
+      <div className="mt-[62px] flex w-full flex-col space-y-[21px] sm:w-[430px] md:w-[430px] lg:w-[430px] xl:w-[430px]">
         <Input
           {...register('name')}
           id="name"
